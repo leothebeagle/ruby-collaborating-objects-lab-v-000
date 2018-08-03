@@ -31,7 +31,7 @@ class Artist
 
   def self.find_or_create_by_name(artist_name)
    artist = self.create_by_name(artist_name) unless artist = self.find_by_name(artist_name)
-   binding.pry
+  #  binding.pry
    artist
     # x = self.find_by_name(artist_name)
     # x ? x : self.create_by_name(artist_name)
